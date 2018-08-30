@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:derby:memory:accounts;create=true
+    driver-class-name: org.apache.derby.jdbc.EmbeddedDriver
+    username: sa
+  jpa:
+    hibernate:
+      ddl-auto: update
